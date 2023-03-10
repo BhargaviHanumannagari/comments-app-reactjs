@@ -1,0 +1,81 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+}
+.description {
+  font-size: 12px;
+  font-weight: 400;
+  color: #64748b;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 18px;
+  }
+}
+
+.comments-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style: none;
+  align-self: flex-start;
+  margin-right: 0px;
+  padding-right: 0px;
+  flex-wrap: wrap;
+}
+
+.list-item {
+  margin-right: 20px;
+  margin-bottom: 18px;
+  cursor: pointer;
+  opacity: 0.5;
+}
+.image {
+  width: 70px;
+  height: 70px;
+}
+
+.selected-list-item {
+  opacity: 1;
+  margin-right: 20px;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
